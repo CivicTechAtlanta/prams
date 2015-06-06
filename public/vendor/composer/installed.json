@@ -105,5 +105,139 @@
         "keywords": [
             "templating"
         ]
+    },
+    {
+        "name": "twbs/bootstrap",
+        "version": "v3.3.4",
+        "version_normalized": "3.3.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap.git",
+            "reference": "a10eb60bc0b07b747fa0c4ebd8821eb7307bd07f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/a10eb60bc0b07b747fa0c4ebd8821eb7307bd07f",
+            "reference": "a10eb60bc0b07b747fa0c4ebd8821eb7307bd07f",
+            "shasum": ""
+        },
+        "replace": {
+            "twitter/bootstrap": "self.version"
+        },
+        "time": "2015-03-16 15:44:41",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
+            },
+            {
+                "name": "Mark Otto",
+                "email": "markdotto@gmail.com"
+            }
+        ],
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+        "homepage": "http://getbootstrap.com",
+        "keywords": [
+            "JS",
+            "css",
+            "framework",
+            "front-end",
+            "less",
+            "mobile-first",
+            "responsive",
+            "web"
+        ]
+    },
+    {
+        "name": "kwizer15/jquery",
+        "version": "2.1.3",
+        "version_normalized": "2.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kwizer15/jquery.git",
+            "reference": "5925eb10edfd3a5c4eb325c50e68b1789083412a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kwizer15/jquery/zipball/5925eb10edfd3a5c4eb325c50e68b1789083412a",
+            "reference": "5925eb10edfd3a5c4eb325c50e68b1789083412a",
+            "shasum": ""
+        },
+        "time": "2015-03-04 10:43:47",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Emmanuel Bernaszuk",
+                "email": "emmanuel.bernaszuk@kw12er.com"
+            }
+        ],
+        "description": "JQuery Javascript Library",
+        "keywords": [
+            "jquery"
+        ]
+    },
+    {
+        "name": "kwizer15/highcharts",
+        "version": "4.1.3",
+        "version_normalized": "4.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kwizer15/highcharts.git",
+            "reference": "10e6dc4a8fd9f0c3e06126bd4a16887a4162b37d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kwizer15/highcharts/zipball/10e6dc4a8fd9f0c3e06126bd4a16887a4162b37d",
+            "reference": "10e6dc4a8fd9f0c3e06126bd4a16887a4162b37d",
+            "shasum": ""
+        },
+        "require": {
+            "kwizer15/jquery": "*"
+        },
+        "time": "2015-03-04 10:36:38",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "CC-BY-NC-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Emmanuel Bernaszuk",
+                "email": "emmanuel.bernaszuk@kw12er.com"
+            }
+        ],
+        "description": "Highcharts Javascript Library",
+        "keywords": [
+            "highcharts",
+            "highmaps",
+            "highstock"
+        ]
     }
 ]

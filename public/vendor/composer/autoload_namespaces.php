@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
     'Slim' => array($vendorDir . '/slim/slim'),
+    '' => array($vendorDir . '/kwizer15/jquery', $vendorDir . '/kwizer15/highcharts'),
 );
